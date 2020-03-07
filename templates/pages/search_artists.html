@@ -1,0 +1,28 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Fyyur | Venues Search{% endblock %}
+{% block content %}
+<div class="form-wrapper">
+  <form method="post" class="form">
+  <h3 class="form-heading">Find an artist:</h3>
+  <div class="form-group">
+    {{ form.search_terms(class_ = 'form-control', autofocus = true) }}
+  </div>
+  <input type="submit" value="Search Artists" class="btn btn-primary btn-lg btn-block">
+  </form>
+    {% if search_terms != None and search_terms != '' %}
+      <h3>Number of search results for "{{ search_terms }}": {{ results.count }}</h3>
+    {% endif %}
+  <ul class="items">
+    {% for artist in results.data %}
+    <li>
+      <a href="/artists/{{ artist.id }}">
+        <i class="fas fa-music"></i>
+        <div class="item">
+          <h5>{{ artist.name }}</h5>
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>
+{% endblock %}
