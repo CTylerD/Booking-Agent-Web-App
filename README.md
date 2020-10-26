@@ -24,6 +24,7 @@ Project Prompt:
 * Install the dependencies:
   ```
   $ pip install -r requirements.txt
+  ```
 
 
 ## Installation and Setup
