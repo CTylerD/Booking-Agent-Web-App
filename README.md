@@ -1,6 +1,6 @@
 # Booking Agent Web App
 
-### Udacity Full Stack Web Development Nanodegree - Project #1
+## Udacity Full Stack Web Development Nanodegree - Project #1
 
 Project Prompt:
 
