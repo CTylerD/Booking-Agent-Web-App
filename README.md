@@ -8,11 +8,9 @@ Project Prompt:
 
 ### Project / Stack Structure
 
-Our tech stack will include:
-
-* **SQLAlchemy ORM** to be our ORM library of choice
-* **PostgreSQL** as our database of choice
-* **Python3** and **Flask** as our server language and server framework
+* **SQLAlchemy ORM** ORM library
+* **PostgreSQL** database
+* **Python3** and **Flask** as server language and server framework
 * **Flask-Migrate** for creating and running schema migrations
 * **HTML**, **CSS**, and **Javascript** with [Bootstrap 3](https://getbootstrap.com/docs/3.4/customize/) for our website's frontend
 
