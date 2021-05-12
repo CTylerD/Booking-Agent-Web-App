@@ -10,8 +10,8 @@ Project Prompt:
 
 ### Project / Stack Structure
 
-* **SQLAlchemy ORM** ORM library
-* **PostgreSQL** database
+* **SQLAlchemy** - ORM library
+* **PostgreSQL** - database
 * **Python3** and **Flask** as server language and server framework
 * **Flask-Migrate** for creating and running schema migrations
 * **HTML**, **CSS**, and **Javascript** with [Bootstrap 3](https://getbootstrap.com/docs/3.4/customize/) for our website's frontend
